@@ -1,0 +1,18 @@
+.fetch-box {
+  background: #e8f5e9;
+  padding: 20px;
+  border-left: 5px solid #43a047;
+  border-radius: 10px;
+}
+
+.loading {
+  color: #1976d2;
+}
+
+.error {
+  color: #d32f2f;
+}
+
+.success {
+  font-weight: bold;
+}

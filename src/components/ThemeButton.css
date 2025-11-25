@@ -1,0 +1,17 @@
+.theme-btn {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: default;
+}
+
+.theme-light {
+  background: #fff;
+  border: 1px solid #ddd;
+  color: #222;
+}
+
+.theme-dark {
+  background: #111827;
+  color: #f3f4f6;
+}

@@ -1,0 +1,41 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  background: #f5f7fb;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.sidebar {
+  width: 240px;
+  background: #1e1e2f;
+  color: #fff;
+  padding: 25px;
+}
+
+.logo {
+  font-size: 22px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  background: #27293d;
+  color: #c7c7ff;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.menu a:hover {
+  background: #35375a;
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}

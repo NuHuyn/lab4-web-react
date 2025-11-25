@@ -1,0 +1,55 @@
+.signup-card {
+  width: 420px;
+  background: linear-gradient(180deg, #f6f0fb, #fff);
+  padding: 22px;
+  border-radius: 12px;
+  border: 1px solid #e8def5;
+  box-shadow: 0 6px 18px rgba(99, 88, 133, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.signup-card h3 {
+  margin: 0 0 4px 0;
+  color: #5b2e7b;
+}
+
+.signup-card label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  color: #4a3a57;
+}
+
+.signup-card input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d9cfea;
+  outline: none;
+}
+
+.signup-card input:focus {
+  box-shadow: 0 0 0 3px rgba(91,46,123,0.08);
+}
+
+.actions {
+  display:flex;
+  flex-direction: column;
+  gap:8px;
+}
+
+.signup-card button {
+  background: #6a2fb2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hint {
+  color: #7d6b85;
+  font-size: 12px;
+}
